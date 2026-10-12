@@ -1,0 +1,668 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aisyah's professional portfolio showcasing software engineering projects, technical skills and experience.">
+
+    <title>Aisyah | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        
+<a href="#home" class="logo profile-logo">
+    <img src="images/profile.jpg" alt="Aisyah">
+    <span class="logo-name">Aisyah Rusli<span>
+</a>
+
+
+        <button
+            class="menu-toggle"
+            id="menu-toggle"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+            aria-controls="nav-links">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="nav-links">
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience &amp; Activities</a>
+            <a href="#skills">Skills</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Hello, I'm <span>Aisyah.</span></h1>
+
+                <h2>Software Engineering Student</h2>
+
+                <p class="hero-description">
+                    I'm passionate about exploring data, solving
+                    problems and using technology to create
+                    meaningful solutions.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button button-primary">
+                        View Projects ↗
+                    </a>
+
+                    <a href="https://drive.google.com/drive/folders/1385rr34QxLQq27KtEbXd1kNoW3oI37Q0"
+                       class="button button-outline"
+                       download>
+                        View Resume ↓
+                    </a>
+                </div>
+
+                <p class="hero-note">
+                    Aspiring Data &amp; IT Professional
+                </p>
+            </div>
+
+            <div class="hero-visual">
+                <div class="portrait-frame">
+                    <div class="portrait-placeholder">
+                        <img
+                            src="images/profile.jpg"
+                            alt="Aisyah's profile photo"
+                            class="profile-image"
+>
+                    </div>
+                </div>
+
+                <div class="floating-note">
+                    <span class="note-icon">✦</span>
+                    <div>
+                        <strong>Always learning</strong>
+                        <p>Growing through every experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">MY WORK</p>
+
+                <h2>Featured <span>Projects</span></h2>
+
+                <p>
+                    A collection of projects showcasing my learning,
+                    teamwork and problem-solving skills.
+                </p>
+            </div>
+
+            <div class="project-grid">
+
+                <!-- Project 1: UPSI NexRide -->
+                <article class="project-card">
+                    <div class="project-cover cover-nexride">
+                        <img
+                            src="images/nexride.jpg"
+                            alt="UPSI NexRide project screenshot"
+                            class="project-image"
+                        >
+                    </div>
+
+                    <div class="project-info">
+                        <span class="project-category">Transportation Project</span>
+
+                        <h3>UPSI NexRide</h3>
+
+                        <p>
+                            A campus transportation mobile application
+                            designed to connect UPSI students for
+                            ride-sharing and make travel between campuses
+                            more convenient.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Flutter</span>
+                            <span>Supabase</span>
+                            <span>Dart</span>
+                            <span>Google Maps API</span>
+                        </div>
+
+                        <button class="project-details-btn"
+                                data-project="nexride">
+                            View Details ↗
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project 2: TravelBah! -->
+                <article class="project-card">
+                    <div class="project-cover cover-travelbah">
+                        <img
+                            src="images/travelbah.jpg"
+                            alt="UPSI NexRide project screenshot"
+                            class="project-image"
+                        >
+                    </div>
+
+                    <div class="project-info">
+                        <span class="project-category">Community Project</span>
+
+                        <h3>TravelBah!</h3>
+
+                        <p>
+                            A travel community mobile application
+                            designed to help users discover attractions,
+                            share travel experiences and organize
+                            travel wishlists.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>Cloudinary</span>
+                            <span>Dart</span>
+                        </div>
+
+                        <button class="project-details-btn"
+                                data-project="travelbah">
+                            View Details ↗
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project 3: CPTyres -->
+                <article class="project-card">
+                    <div class="project-cover cover-cptyres">
+                        <img
+                            src="images/CPTyres.jpg"
+                            alt="UPSI NexRide project screenshot"
+                            class="project-image"
+                        >
+                    </div>
+
+                    <div class="project-info">
+                        <span class="project-category">Management System</span>
+
+                        <h3>CPTyres</h3>
+
+                        <p>
+                            A web-based car workshop management system
+                            designed to organize customer and vehicle
+                            records, track service jobs and manage
+                            invoices and payments.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>Tailwind CSS</span>
+                            <span>VPS Hosting</span>
+                        </div>
+
+                        <button class="project-details-btn"
+                                data-project="cptyres">
+                            View Details ↗
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project 4: SmartGrade -->
+                <article class="project-card">
+                    <div class="project-cover cover-smartgrade">
+                        <img
+                            src="images/smartgrade.jpg"
+                            alt="UPSI NexRide project screenshot"
+                            class="project-image"
+                        >
+                    </div>
+
+                    <div class="project-info">
+                        <span class="project-category">Academic Project</span>
+
+                        <h3>SmartGrade</h3>
+
+                        <p>
+                            An academic web platform designed to support
+                            student grade management and make academic
+                            information easier to organize and access.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>MySQL</span>
+                            <span>Academic Platform</span>
+                            <span>Web App</span>
+                        </div>
+
+                        <button class="project-details-btn"
+                                data-project="smartgrade">
+                            View Details ↗
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project 5: GreenComputing -->
+                <article class="project-card">
+                    <div class="project-cover cover-greencomputing">
+                        <img
+                            src="images/greencomputing.jpg"
+                            alt="UPSI NexRide project screenshot"
+                            class="project-image"
+                        >
+                    </div>
+
+                    <div class="project-info">
+                        <span class="project-category">Awareness Project</span>
+
+                        <h3>Green Computing</h3>
+
+                        <p>
+                            A web-based awareness project that promotes
+                            environmentally responsible computing
+                            practices and sustainable technology use.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Web App</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>MySQL</span>
+                            <span>PHP</span>
+                        </div>
+
+                        <button class="project-details-btn"
+                                data-project="greencomputing">
+                            View Details ↗
+                        </button>
+                    </div>
+                </article>
+
+                
+<!-- Project 6: UPSI Care & Share -->
+<article class="project-card">
+    <div class="project-cover cover-cares-share">
+        <img
+            src="images/care&share.jpg"
+            alt="UPSI Care & Share project screenshot"
+            class="project-image"
+        >
+    </div>
+
+    <div class="project-info">
+        <span class="project-category">Community Project</span>
+
+        <h3>UPSI Care &amp; Share</h3>
+
+        <p>
+            A community-focused project designed to encourage
+            sharing, support and collaboration within the UPSI
+            community.
+        </p>
+
+        <div class="project-tags">
+            <span>Community</span>
+            <span>Social Impact</span>
+            <span>UPSI</span>
+        </div>
+
+        <button class="project-details-btn"
+                data-project="upsicareshare">
+            View Details ↗
+        </button>
+    </div>
+</article>
+
+
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+<section class="experience-section" id="experience">
+  <div class="section-heading">
+    <span class="section-label">MY JOURNEY</span>
+    <h2>Work Experience</h2>
+    <p>Experiences that helped me develop my technical and professional skills.</p>
+  </div>
+
+  <div class="experience-layout">
+    <!-- Left: Explanation -->
+    <div class="experience-info">
+      <span class="experience-tag">PART-TIME</span>
+      <span class="experience-date">November 2024 – Present</span>
+      <h3>Technical Crew</h3>
+      <h4>Pusat Kebudayaan UPSI</h4>
+      <p class="experience-period">Universiti Pendidikan Sultan Idris</p>
+
+      <p>
+        Assisted with audio-visual (AV) equipment setup, technical operations and event support at UPSI Cultural Centre.
+      </p>
+
+      <ul>
+        <li><strong>Audio-Visual Setup:</strong> Set up projectors, computers, microphones, and audio systems for various events.</li>
+        <li><strong>Event Preparation & Technical Support:</strong> Prepared equipment, checked functionality, and provided on-site technical assistance.</li>
+        <li><strong>Troubleshooting & Maintenance:</strong> Resolved basic AV and lighting issues and helped maintain equipment in good condition.</li>
+        <li><strong>Technical Coordination:</strong> Collaborated with team members to ensure technical requirements were met for events and activities.</li>
+      </ul>
+    </div>
+
+    <!-- Right: Image Slider -->
+    <div class="photo-slider" data-slider="work">
+      <div class="slider-track">
+        <img src="images/work-1.jpg" alt="Technical crew experience photo 1" class="slider-image active">
+        <img src="images/work-2.jpg" alt="Technical crew experience photo 2" class="slider-image">
+        <img src="images/work-3.jpg" alt="Technical crew experience photo 3" class="slider-image">
+        <img src="images/work-4.jpg" alt="Technical crew experience photo 4" class="slider-image">
+        <img src="images/work-5.jpg" alt="Technical crew experience photo 5" class="slider-image">
+      </div>
+
+      <button class="slider-btn slider-prev" type="button" aria-label="Previous work experience photo">&#10094;</button>
+      <button class="slider-btn slider-next" type="button" aria-label="Next work experience photo">&#10095;</button>
+
+      <div class="slider-counter">01 / 05</div>
+      <div class="slider-dots"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ACTIVITIES -->
+<section class="activities-section" id="activities">
+  <div class="section-heading">
+    <span class="section-label">BEYOND THE CLASSROOM</span>
+    <h2>Activities & Involvement</h2>
+    <p>University programmes, teamwork and experiences outside the classroom.</p>
+  </div>
+
+  <div class="experience-layout">
+    <!-- Left: Explanation -->
+    <div class="experience-info">
+      <span class="experience-tag">UNIVERSITY INVOLVEMENT</span>
+      <h3>Activities & Committees</h3>
+      <h4>UPSI Programmes and Events</h4>
+      <p class="experience-period">University Activities</p>
+
+      <p>
+        Participated in university programmes and events, gaining experience
+        in teamwork, communication, coordination and event support.
+      </p>
+
+      <ul>
+        <li>Collaborated with committee members to support programme activities.</li>
+        <li>Contributed to event preparation and on-site coordination.</li>
+        <li>Developed communication, teamwork and problem-solving skills.</li>
+      </ul>
+    </div>
+
+    <!-- Right: Image Slider -->
+    <div class="photo-slider" data-slider="activity">
+      <div class="slider-track">
+        <img src="images/activity-1.jpg" alt="University activity photo 1" class="slider-image active">
+        <img src="images/activity-2.jpg" alt="University activity photo 2" class="slider-image">
+        <img src="images/activity-3.jpg" alt="University activity photo 3" class="slider-image">
+        <img src="images/activity-4.jpg" alt="University activity photo 4" class="slider-image">
+        <img src="images/activity-5.jpg" alt="University activity photo 5" class="slider-image">
+      </div>
+
+      <button class="slider-btn slider-prev" type="button" aria-label="Previous activity photo">&#10094;</button>
+      <button class="slider-btn slider-next" type="button" aria-label="Next activity photo">&#10095;</button>
+
+      <div class="slider-counter">01 / 05</div>
+      <div class="slider-dots"></div>
+    </div>
+  </div>
+</section>
+
+        <!-- Skills Section -->
+        <section class="content-section" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I KNOW</p>
+                <h2>Skills &amp; <span>Tools</span></h2>
+                <p>
+                    Technical knowledge and professional skills
+                    developed through coursework and projects.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="skill-icon">💻</span>
+                    <h3>Programming Language</h3>
+                    <p>HTML • CSS • JavaScript • Flutter • Dart • Phyton • Java • PHP</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-icon">🗄️</span>
+                    <h3>Database &amp; Cloud</h3>
+                    <p>MySQL • Firebase • Supabase</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-icon">📋</span>
+                    <h3>Machine Learning &amp; Data </h3>
+                    <p>Pandas • NumPy • Excel • PowerBI</p>
+                </div>
+
+                <div class="skill-card">
+                    <span class="skill-icon">🗂️</span>
+                    <h3>Developer &amp; Design Tools</h3>
+                    <p>Git • GitHub • VS Code • Figma • Jira</p>
+                </div>
+            </div>
+        </section>
+
+
+<!-- About Section -->
+<section class="content-section section-soft" id="about">
+    <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+    </div>
+
+    <div class="about-layout">
+        <!-- Left: Photo Slider -->
+        <div class="about-photo-slider" data-about-slider>
+            <div class="about-photo-track">
+                <img src="images/about-1.jpg" alt="Aisyah photo 1">
+                <img src="images/about-2.jpg" alt="Aisyah photo 2">
+                <img src="images/about-3.jpg" alt="Aisyah photo 3">
+                <img src="images/about-4.jpg" alt="Aisyah photo 4">
+                <img src="images/about-5.jpg" alt="Aisyah photo 5">
+            </div>
+
+            <span class="about-photo-counter">01 / 05</span>
+
+            <button class="about-photo-arrow prev"
+                    type="button" aria-label="Previous photo">‹</button>
+            <button class="about-photo-arrow next"
+                    type="button" aria-label="Next photo">›</button>
+
+            <div class="about-photo-dots">
+                <button class="active" aria-label="Photo 1"></button>
+                <button aria-label="Photo 2"></button>
+                <button aria-label="Photo 3"></button>
+                <button aria-label="Photo 4"></button>
+                <button aria-label="Photo 5"></button>
+            </div>
+        </div>
+
+        <!-- Right: About Details -->
+        <div class="about-details">
+            <div class="about-item">
+                <h3>01 · My Background</h3>
+                <p>
+                    I'm a Software Engineering student at Sultan Idris
+                    Education University (UPSI), interested in data
+                    analytics, software quality assurance and using
+                    technology to solve practical problems.
+                </p>
+            </div>
+
+            <div class="about-item">
+                <h3>02 · What I Do</h3>
+                <p>
+                    I have experience with web and mobile application
+                    projects, database management, software testing
+                    and documentation. I enjoy analysing requirements
+                    and ensuring systems work as intended.
+                </p>
+            </div>
+
+            <div class="about-item">
+                <h3>03 · How I Work</h3>
+                <p>
+                    I value teamwork, attention to detail and continuous
+                    learning. Through academic projects and technical
+                    activities, I continue to develop my problem-solving,
+                    communication and organisational skills.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Contact Section -->
+<section class="content-section contact-section" id="contact">
+    <div class="section-heading">
+        
+<span class="contact-badge">
+    <span class="status-dot"></span>
+    Open to Internship Opportunities
+</span>
+
+        <p class="eyebrow">LET'S TALK,</p>
+        <h2>Let's <span>Connect</span></h2>
+        <p>
+            Have an internship opportunity or a project in mind? 
+            I'd love to connect, learn from new experiences, and contribute my skills to meaningful work.
+        </p>
+    </div>
+
+    <div class="contact-layout">
+
+        <!-- Email Panel -->
+        <a class="contact-email-card"
+           href="mailto:YOUR_EMAIL@example.com">
+            <div class="contact-email-icon">
+                <span>✉</span>
+            </div>
+
+            <div class="contact-email-info">
+                <span class="contact-label">EMAIL ME AT</span>
+                <h3>ctaisyahrusli@gmail.com</h3>
+                <p>Drop me a message anytime.</p>
+            </div>
+
+            <span class="contact-arrow">↗</span>
+        </a>
+
+        <!-- Social Cards -->
+        <div class="contact-social-grid">
+
+            <a class="contact-social-card"
+               href="http://github.com/aisyahrusli44"
+               target="_blank"
+               rel="noopener noreferrer">
+                <div class="contact-social-icon">GH</div>
+                <div>
+                    <h3>GitHub</h3>
+                    <p>Explore my projects</p>
+                </div>
+                <span class="contact-arrow">↗</span>
+            </a>
+
+            <a class="contact-social-card"
+               href="http://linkedin.com/in/aisyah-rusli"
+               target="_blank"
+               rel="noopener noreferrer">
+                <div class="contact-social-icon">in</div>
+                <div>
+                    <h3>LinkedIn</h3>
+                    <p>Connect professionally</p>
+                </div>
+                <span class="contact-arrow">↗</span>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Project Details Popup -->
+    <div class="project-modal"
+         id="project-modal"
+         aria-hidden="true">
+
+        <div class="modal-content"
+              role="dialog"
+              aria-modal="true"
+              aria-labelledby="modal-title"
+              aria-describedby="modal-description">
+
+            <button class="modal-close"
+                    id="modal-close"
+                    aria-label="Close project details">✕</button>
+
+            <p class="eyebrow" id="modal-category"></p>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <div class="project-action-buttons" id="modal-project-links"></div>
+
+             <!-- Problem and Solution: two columns -->
+    <div class="problem-solution-grid">
+        <div class="problem-box">
+            <h3>Problem</h3>
+            <ul id="modal-problems"></ul>
+        </div>
+
+        <div class="solution-box">
+            <h3>Solution</h3>
+            <ul id="modal-solutions"></ul>
+        </div>
+    </div>
+
+    <!-- My Role -->
+    <div class="modal-detail">
+        <h3>My Role</h3>
+        <p id="modal-role"></p>
+    </div>
+
+    <!-- Core Features -->
+    <div class="modal-detail">
+        <h3>Core Features</h3>
+        <div class="core-features" id="modal-features"></div>
+    </div>
+
+            <p class="modal-note">
+                Detailed responsibilities and project links
+                can be added as the portfolio develops.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        
+        <a href="#home" class="logo profile-logo">
+        <img src="images/profile.jpg" alt="Aisyah">
+         <span class="logo-name">Aisyah Rusli<span>
+        </a>
+
+        <p>© </span> Aisyah Rusli 2026. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
